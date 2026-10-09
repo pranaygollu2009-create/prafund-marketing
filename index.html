@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Prafund — What would you do with your first paycheck?</title>
+<meta name="description" content="Prafund is a free financial life simulator for students. Pick a career, live on a fictional paycheck, invest simulated money in real-ticker markets, and learn money by making decisions — with zero real-money risk." />
+<meta property="og:title" content="Prafund — Learn money by making decisions" />
+<meta property="og:description" content="Free financial simulator for students: career, paycheck, budget, investing. No real money, all the lessons." />
+<meta property="og:image" content="hero.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="hero.png" />
+<link rel="icon" type="image/png" href="hero.png" />
+<style>
+  :root { --green:#34D399; --dark:#0B1220; --card:#111C2B; --muted:#94A3B8; --text:#F1F5F9; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--dark); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.6; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+  header { padding:28px 0; display:flex; justify-content:space-between; align-items:center; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:1.25rem; }
+  .brand img { height:36px; border-radius:8px; }
+  .cta-top { background:var(--green); color:#052e1b; padding:10px 20px; border-radius:10px; font-weight:700; text-decoration:none; font-size:.95rem; }
+  .hero { text-align:center; padding:64px 0 48px; }
+  .hero h1 { font-size:clamp(2.2rem,6vw,3.6rem); font-weight:800; letter-spacing:-.02em; line-height:1.15; }
+  .hero h1 span { color:var(--green); }
+  .hero p.lead { color:var(--muted); font-size:1.15rem; max-width:620px; margin:20px auto 32px; }
+  .btn-big { display:inline-block; background:var(--green); color:#052e1b; font-weight:800; font-size:1.1rem; padding:16px 36px; border-radius:14px; text-decoration:none; box-shadow:0 8px 30px rgba(52,211,153,.25); }
+  .btn-ghost { display:inline-block; margin-left:14px; color:var(--text); border:1px solid #2A3A4F; padding:16px 30px; border-radius:14px; text-decoration:none; font-weight:600; }
+  .badges { margin-top:26px; color:var(--muted); font-size:.95rem; }
+  .badges b { color:var(--green); font-weight:700; }
+  section { padding:56px 0; }
+  h2 { font-size:1.9rem; font-weight:800; margin-bottom:8px; }
+  .sub { color:var(--muted); margin-bottom:36px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+  .card { background:var(--card); border:1px solid #1C2B3F; border-radius:16px; padding:26px; }
+  .card h3 { font-size:1.15rem; margin-bottom:8px; }
+  .card p { color:var(--muted); font-size:.98rem; }
+  .card .ico { font-size:1.6rem; }
+  .steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; counter-reset:step; }
+  .step { background:var(--card); border:1px solid #1C2B3F; border-radius:16px; padding:26px; position:relative; counter-increment:step; }
+  .step::before { content:counter(step); position:absolute; top:-16px; left:22px; background:var(--green); color:#052e1b; width:34px; height:34px; border-radius:50%; display:grid; place-items:center; font-weight:800; }
+  .step h3 { margin:10px 0 6px; font-size:1.05rem; }
+  .step p { color:var(--muted); font-size:.95rem; }
+  .banner { text-align:center; background:linear-gradient(135deg,#0F2032,#0B1220); border:1px solid #1C2B3F; border-radius:20px; padding:56px 24px; }
+  .banner h2 { font-size:2rem; }
+  .banner p { color:var(--muted); margin:10px 0 28px; }
+  footer { padding:36px 0 48px; color:#64748B; font-size:.85rem; text-align:center; }
+  footer a { color:var(--green); text-decoration:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand"><img src="hero.png" alt="" /> Prafund</div>
+    <a class="cta-top" href="https://pranaygollu2009-create.github.io/prafund/">Play free →</a>
+  </header>
+
+  <div class="hero">
+    <h1>What would you do with<br />your <span>first paycheck?</span></h1>
+    <p class="lead">Prafund gives students a fictional salary and a real-feeling financial life — budget, save, invest in a live-ticker market — and rewards the boring, smart decisions that real life rewards. All the lessons, none of the losses.</p>
+    <a class="btn-big" href="https://pranaygollu2009-create.github.io/prafund/">Start Your Financial Journey</a>
+    <a class="btn-ghost" href="https://pranaygollu2009-create.github.io/prafund/how-it-works">See how it works</a>
+    <p class="badges"><b>100% free</b> · Takes about a minute · <b>No real money</b> involved, ever</p>
+  </div>
+
+  <section id="why">
+    <h2>Learn money without losing money</h2>
+    <p class="sub">Most people learn money habits by making expensive mistakes. Prafund is the safe sandbox.</p>
+    <div class="cards">
+      <div class="card"><div class="ico">🧭</div><h3>Career journeys</h3><p>Pick a real-feeling job and salary, then live out months of financial decisions — rent, insurance, groceries, splurges.</p></div>
+      <div class="card"><div class="ico">📊</div><h3>Real-ticker markets</h3><p>Track the S&P 500, Apple, NVIDIA, Bitcoin and more. Prices are simulated and honestly labeled — perfect for learning how markets move.</p></div>
+      <div class="card"><div class="ico">📈</div><h3>Invest &amp; track</h3><p>Buy and hold, watch your portfolio charted against a benchmark, and feel both the dips and the wins — risk-free.</p></div>
+      <div class="card"><div class="ico">🧠</div><h3>Built-in lessons</h3><p>A glossary and mini-lessons explain every term you just used. You finish smarter than you started.</p></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>Playing takes one minute</h2>
+    <p class="sub">No credit card, no install, no math test at the door.</p>
+    <div class="steps">
+      <div class="step"><h3>Choose your life</h3><p>Pick a career path and get your monthly fictional paycheck.</p></div>
+      <div class="step"><h3>Make the calls</h3><p>Decide where every dollar goes — savings, rent, fun, or investing.</p></div>
+      <div class="step"><h3>Grow your money</h3><p>Invest in simulated markets and watch decisions compound.</p></div>
+      <div class="step"><h3>See the pattern</h3><p>Review your journey and learn what smart really looks like.</p></div>
+    </div>
+  </section>
+
+  <section id="start">
+    <div class="banner">
+      <h2>Your first paycheck is waiting.</h2>
+      <p>Free forever · No real money · Built for students</p>
+      <a class="btn-big" href="https://pranaygollu2009-create.github.io/prafund/">Play Prafund now — it's free</a>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Prafund</strong> is an educational simulation — <a href="https://pranaygollu2009-create.github.io/prafund/help">not financial advice</a>. All money in the game is fictional.<br />
+    <a href="https://github.com/pranaygollu2009-create/prafund">View the source on GitHub</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
