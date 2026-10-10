@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pranaygollu2009-create.github.io/prafund-marketing/sitemap.xml
